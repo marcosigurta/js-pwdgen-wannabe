@@ -15,7 +15,7 @@ var favColor = prompt("Almost done! Insert your Favorite Colour");
 var number = 19;
 
 //Input Results
-var personalData = (document.getElementById("personal-data").style.display =
-    "block");
-var personalData = (document.getElementById("personal-data").innerHTML =
-    name + surname + favColor + number);
+var personalData = document.getElementById("personal-data").style.display =
+    "block";
+var personalData = document.getElementById("personal-data").innerHTML =
+    name + surname + favColor + number;
